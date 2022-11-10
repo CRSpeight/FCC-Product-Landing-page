@@ -1,0 +1,17 @@
+#nav-bar {
+  display: flex;
+  gap: 50px;
+}
+
+#header {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+  padding: 15px 20px 20px 20px;
+  background-color: slategray;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
