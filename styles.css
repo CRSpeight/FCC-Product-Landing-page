@@ -8,37 +8,38 @@
   grid-template-columns: auto auto;
   justify-content: space-between;
   padding: 15px;
-  background-color: #90E0EF;
+  background-color: #90e0ef;
   font-size: 30px;
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   font-weight: 900;
 }
 
-#header-img{
+#header-img {
   display: none;
 }
 
 body {
   margin: 0;
   padding: 0;
-  background-color: #CAF0F8;
-  color: #03045E;
+  background-color: #caf0f8;
+  color: #03045e;
 }
 
-nav > a, nav > a:visited{
+nav > a,
+nav > a:visited {
   text-decoration: none;
-  color: #03045E;
+  color: #03045e;
 }
 
-nav > a:hover{
+nav > a:hover {
   color: #9f9fb6;
 }
 
-#pricing{
+#pricing {
   font-size: 25px;
 }
 
-#video{
+#video {
   padding: 20px;
   display: block;
   width: 560px;
@@ -46,15 +47,13 @@ nav > a:hover{
   margin: 0 auto;
 }
 
-@media (max-width: 700px){
-  #header{
+@media (max-width: 700px) {
+  #header {
     grid-template-columns: 1fr;
   }
 
-  #nav-bar{
+  #nav-bar {
     flex-direction: column;
     gap: 0;
   }
-
-
 }
