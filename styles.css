@@ -38,6 +38,14 @@ nav > a:hover{
   font-size: 25px;
 }
 
+#video{
+  padding: 20px;
+  display: block;
+  width: 560px;
+  height: 315px;
+  margin: 0 auto;
+}
+
 @media (max-width: 700px){
   #header{
     grid-template-columns: 1fr;
@@ -47,4 +55,6 @@ nav > a:hover{
     flex-direction: column;
     gap: 0;
   }
+
+
 }
